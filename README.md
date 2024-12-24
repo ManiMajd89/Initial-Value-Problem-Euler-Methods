@@ -26,7 +26,7 @@ The analytical solution to this IVP is:
 - Solves the IVP using Euler's and Improved Euler's Methods.
 - Compares numerical solutions with the analytical solution.
 - Produces plots for different time steps (\(N = 45, 55, 75, 100, 250\)).
-- Computes solutions over the interval \( t \in [0, 10] \).
+- Computes solutions over the interval \( t in [0, 10] \).
 
 ---
 
