@@ -55,7 +55,7 @@ The analytical solution to this IVP is:
 
 - Red Line: Numerical solution from Improved Euler’s Method (IEM).
 
-- Green Line: Analytical solution.
+- Yellow Line: Analytical solution.
 
 ## Recommendation
 
