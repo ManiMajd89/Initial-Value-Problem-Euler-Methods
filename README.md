@@ -11,15 +11,14 @@ The problem involves approximating the solution to a differential equation for d
 
 We are tasked with solving the following second-order initial value problem (IVP):
 
-\[
-y'' = -\frac{19}{4}y - 10y', \quad y(0) = -9, \quad y'(0) = 0
-\]
+**Differential Equation:**
+\[ y'' = -\frac{19}{4}y - 10y', \]
+with initial conditions:
+\[ y(0) = -9, \quad y'(0) = 0. \]
 
-The analytical solution to this IVP is given by:
-
-\[
-y(t) = -\frac{19}{2}e^{-t/2} + \frac{1}{2}e^{-19t/2}
-\]
+**Analytical Solution:**
+The analytical solution to this IVP is:
+\[ y(t) = -\frac{19}{2}e^{-t/2} + \frac{1}{2}e^{-19t/2}. \]
 
 
 ## Features
@@ -61,5 +60,7 @@ y(t) = -\frac{19}{2}e^{-t/2} + \frac{1}{2}e^{-19t/2}
 ## Recommendation
 
 - Based on the comparison of computational efficiency and accuracy:
+
 	•	(N = 100): A reasonable balance for EM.
+
 	•	(N = 55): Recommended for IEM, providing better accuracy with fewer steps.
