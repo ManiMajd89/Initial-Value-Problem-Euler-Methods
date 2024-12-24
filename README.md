@@ -12,13 +12,13 @@ The problem involves approximating the solution to a differential equation for d
 We are tasked with solving the following second-order initial value problem (IVP):
 
 **Differential Equation:**
-\  y'' = -19/4y - 10y' \
+ y'' = -19/4y - 10y' 
 with initial conditions:
-\ y(0) = -9,  y'(0) = 0 \
+ y(0) = -9,  y'(0) = 0 
 
 **Analytical Solution:**
 The analytical solution to this IVP is:
-\[ y(t) = -19/2 e^(-t/2) + 1/2 e^(-19t/2) \
+ y(t) = -19/2 e^(-t/2) + 1/2 e^(-19t/2) 
 
 
 ## Features
